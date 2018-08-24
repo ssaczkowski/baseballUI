@@ -10,8 +10,7 @@
         android:layout_height="100dp"
         android:id="@+id/slide_imageView"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:src="@drawable/ic_baseball_intro3"/>
+        android:layout_centerHorizontal="true"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -21,7 +20,6 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:layout_marginTop="16dp"
-        android:text="Hola"
         android:textColor="@color/textColorLight"
         android:textStyle="bold"
         android:textSize="24dp"/>
@@ -34,10 +32,7 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:layout_marginTop="16dp"
-        android:text="Hola 2"
-        android:textColor="@color/textColorLight"
-        android:textStyle="bold"
-        android:textSize="24dp"/>
+        android:textColor="@color/textColorLight"/>
 
     <TextView
         android:id="@+id/slide_textView_point1"

@@ -1,5 +1,6 @@
 package com.ssaczkowski.baseballui
 
+import android.annotation.SuppressLint
 import android.content.Context
 import android.support.v4.view.PagerAdapter
 import android.view.LayoutInflater
@@ -32,25 +33,26 @@ class SliderAdapter(var context: Context) : PagerAdapter() {
 
     override fun instantiateItem(container: ViewGroup, position: Int): Any {
         val view = layoutInfalter.inflate(R.layout.slide_layout, container, false)
-        view.slide_layout_relativeLayout.setBackgroundColor(slide_background[position])
+
+        view.slide_layout_relativeLayout.setBackgroundResource(slide_background[position])
         view.slide_imageView.setImageResource(slide_images[position])
         view.slide_textView_tittle.setText(slide_headings[position])
         view.slide_textView_description.setText(slide_description[position])
 
-        if (position == 0) {
+       /* if (position == 1) {
             view.slide_textView_point1.setTextColor(context.resources.getColor(R.color.colorWhite))
             view.slide_textView_point1.setTextColor(context.resources.getColor(R.color.colorTransparentWhite))
             view.slide_textView_point1.setTextColor(context.resources.getColor(R.color.colorTransparentWhite))
-        } else if (position == 1) {
+        } else if (position == 2) {
             view.slide_textView_point2.setTextColor(context.resources.getColor(R.color.colorTransparentWhite))
             view.slide_textView_point2.setTextColor(context.resources.getColor(R.color.colorWhite))
             view.slide_textView_point2.setTextColor(context.resources.getColor(R.color.colorTransparentWhite))
-        } else if (position == 2) {
+        } else if (position == 3) {
             view.slide_textView_point3.setTextColor(context.resources.getColor(R.color.colorTransparentWhite))
             view.slide_textView_point3.setTextColor(context.resources.getColor(R.color.colorTransparentWhite))
             view.slide_textView_point3.setTextColor(context.resources.getColor(R.color.colorWhite))
         }
-
+*/
         container.addView(view)
 
         return view
