@@ -1,5 +1,11 @@
 <resources>
     <string name="app_name">BaseballUI</string>
-    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_splash">BaseballUI</string>
     <string name="welcome">Bienvenido</string>
+    <string name="slide_intro_enjoy">Disfruta</string>
+    <string name="slide_intro_social">Red Social</string>
+    <string name="slide_intro_welcome_description">a la mejor App de Baseball</string>
+    <string name="slide_intro_enjoy_description">de resultados en tiempo real</string>
+    <string name="slide_intro_social_description">con tus jugadores favoritos</string>
+    <string name="slide_intro_btn_jump">Saltar</string>
 </resources>

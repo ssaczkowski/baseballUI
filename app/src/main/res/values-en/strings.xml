@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">BaseballUI</string>
+    <string name="title_activity_splash">BaseballUI</string>
     <string name="welcome">Welcome</string>
+    <string name="slide_intro_enjoy">Enjoy</string>
+    <string name="slide_intro_social">Social Media</string>
+    <string name="slide_intro_welcome_description">to the best Baseball App</string>
+    <string name="slide_intro_enjoy_description">of results in real time</string>
+    <string name="slide_intro_social_description">with your favorites players</string>
+    <string name="slide_intro_btn_next">Next</string>
 </resources>
