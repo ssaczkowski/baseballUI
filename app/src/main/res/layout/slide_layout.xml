@@ -10,6 +10,7 @@
         android:layout_height="100dp"
         android:id="@+id/slide_imageView"
         android:layout_centerVertical="true"
+        android:tint="@color/colorWhite"
         android:layout_centerHorizontal="true"/>
 
     <TextView
@@ -43,7 +44,7 @@
         android:textColor="@color/colorTransparentWhite"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="70dp"/>
+        android:textSize="80dp"/>
 
     <TextView
         android:id="@+id/slide_textView_point2"
@@ -53,7 +54,7 @@
         android:textColor="@color/colorTransparentWhite"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="70dp"/>
+        android:textSize="80dp"/>
 
     <TextView
         android:id="@+id/slide_textView_point3"
@@ -64,7 +65,7 @@
         android:textColor="@color/colorTransparentWhite"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="70dp"/>
+        android:textSize="80dp"/>
 
 
 </RelativeLayout>
