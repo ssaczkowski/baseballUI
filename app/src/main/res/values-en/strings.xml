@@ -9,4 +9,6 @@
     <string name="slide_intro_enjoy_description">of results in real time</string>
     <string name="slide_intro_social_description">with your favorites players</string>
     <string name="slide_intro_btn_next">Next</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
 </resources>

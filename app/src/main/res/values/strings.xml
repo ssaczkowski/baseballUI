@@ -8,4 +8,6 @@
     <string name="slide_intro_enjoy_description">de resultados en tiempo real</string>
     <string name="slide_intro_social_description">con tus jugadores favoritos</string>
     <string name="slide_intro_btn_jump">Saltar</string>
+    <string name="open">Abrir</string>
+    <string name="close">Cerrar</string>
 </resources>
