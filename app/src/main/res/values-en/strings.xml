@@ -11,4 +11,11 @@
     <string name="slide_intro_btn_next">Next</string>
     <string name="open">Open</string>
     <string name="close">Close</string>
+    <string name="no_internet">No Internet</string>
+    <string name="no_data">Create your first Post!</string>
+    <string name="user_name">User Name</string>
+    <string name="forgot_password">Did you forget the password?</string>
+    <string name="password">Password</string>
+    <string name="login_in">Login In</string>
+    <string name="sign_in">Sign In</string>
 </resources>

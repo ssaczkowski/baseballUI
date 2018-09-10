@@ -7,6 +7,47 @@
     android:layout_height="match_parent"
     tools:context=".StartActivity">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/no_internet_image_view_activity_start"
+            android:src="@drawable/ic_no_internet"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:autofillHints="true"/>
+        <TextView
+            android:layout_below="@id/no_internet_image_view_activity_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccentDark"
+            android:text="@string/no_internet"
+            android:autofillHints="true"/>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/no_data_image_view_activity_start"
+            android:src="@drawable/ic_baseball_no_data"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:layout_below="@id/no_internet_image_view_activity_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccentDark"
+            android:text="@string/no_data"/>
+    </RelativeLayout>
+
     <android.support.design.widget.NavigationView
         android:layout_width="wrap_content"
         android:layout_height="match_parent"

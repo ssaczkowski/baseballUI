@@ -18,7 +18,7 @@ class IntroActivity : AppCompatActivity() {
         intro_activity_viewPager.adapter = slideAdapter
 
         intro_activity_btn_jump.setOnClickListener {
-            startActivity(Intent(this@IntroActivity,SplashActivity::class.java))
+            startActivity(Intent(this@IntroActivity,StartActivity::class.java))
         }
 
     }
