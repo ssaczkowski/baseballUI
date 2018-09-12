@@ -5,4 +5,7 @@
         android:startColor="@color/colorPrimary"
         android:endColor="@color/colorAccent"></gradient>
 
+    <corners android:radius="4dp"/>
+    <padding android:right="24dp" android:left="24dp" android:top="4dp" android:bottom="4dp"/>
+
 </shape>

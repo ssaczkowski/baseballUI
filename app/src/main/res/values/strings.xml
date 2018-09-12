@@ -17,4 +17,12 @@
     <string name="password">Contraseña</string>
     <string name="login_in">Iniciar Sesión</string>
     <string name="sign_in">Registrarse</string>
+    <string name="email_address">Dirección de Email</string>
+    <string name="retype_password">Repetir Contraseña</string>
+    <string name="register">Registro</string>
+    <string name="msg_register">¿ Ya eres miembro? Inicia sesión aquí</string>
+    <string name="position">Tercera Base / Bateador</string>
+    <string name="call">Llamar</string>
+    <string name="edit">Editar</string>
+    <string name="delete">Borrar</string>
 </resources>
