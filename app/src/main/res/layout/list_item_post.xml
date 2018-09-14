@@ -22,12 +22,11 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
-        android:text="TextView"
         android:textColor="@color/textColorDark"
         android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@+id/circle_image_view_item_post"
         app:layout_constraintTop_toTopOf="parent"
-        tools:text="Javier Gonzalez" />
+        android:text="Javier Gonzalez" />
 
     <TextView
         android:id="@+id/textView2"
@@ -35,10 +34,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
-        android:text="TextView"
         app:layout_constraintStart_toEndOf="@+id/circle_image_view_item_post"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        tools:text="Atlantas Baves | Bateador" />
+        android:text="Atlantas Baves | Bateador" />
 
     <TextView
         android:id="@+id/textView3"
@@ -46,10 +44,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
-        android:text="TextView"
         app:layout_constraintStart_toEndOf="@+id/circle_image_view_item_post"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        tools:text="1 día" />
+        android:text="1 día" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -68,10 +65,9 @@
         android:layout_marginStart="8dp"
         android:textColor="@color/textColorDark"
         android:layout_marginTop="16dp"
-        android:text="TextView"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/circle_image_view_item_post"
-        tools:text="Les dejo una imagen de mi primer partido" />
+        android:text="Les dejo una imagen de mi primer partido" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -79,6 +75,7 @@
         android:layout_height="150dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
+        android:scaleType="centerCrop"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
         app:srcCompat="@drawable/baseball_stadium" />
@@ -106,7 +103,6 @@
         android:layout_marginStart="8dp"
         android:drawableTint="@color/textColorGray"
         android:layout_marginTop="8dp"
-        android:layout_goneMarginStart="8dp"
         android:text="Comentar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView8"
