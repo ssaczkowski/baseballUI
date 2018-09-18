@@ -14,5 +14,11 @@ class HomeAnimationActivity : AppCompatActivity() {
         home_animation_text_view_animation.setOnClickListener {
             startActivity(Intent(this@HomeAnimationActivity, AnimationActivity::class.java))
         }
+
+        home_animation_text_view_fadeinout.setOnClickListener {
+            startActivity(Intent(this@HomeAnimationActivity, FadeActivity::class.java))
+            overridePendingTransition(R.anim.fade_in,R.anim.fade_out)
+        }
+
     }
 }
