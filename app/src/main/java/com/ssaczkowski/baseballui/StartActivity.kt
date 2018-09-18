@@ -40,6 +40,10 @@ class StartActivity : AppCompatActivity() {
                   //  startActivity(Intent(this@StartActivity,SplashActivity::class.java))
                     true
                 }
+                R.id.home->{
+                    startActivity(Intent(this@StartActivity,HomeAnimationActivity::class.java))
+                    true
+                }
                 R.id.friends->{
                       startActivity(Intent(this@StartActivity,FriendsActivity::class.java))
                     true

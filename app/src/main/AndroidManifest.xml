@@ -29,7 +29,8 @@
         <activity android:name=".RegisterActivity" />
         <activity android:name=".ProfileActivity" />
         <activity android:name=".FriendsActivity" />
-        <activity android:name=".HomeAnimationActivity"></activity>
+        <activity android:name=".HomeAnimationActivity" />
+        <activity android:name=".AnimationActivity"></activity>
     </application>
 
 </manifest>
