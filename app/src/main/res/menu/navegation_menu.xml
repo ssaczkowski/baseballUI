@@ -12,8 +12,8 @@
         android:id="@+id/friends"
         android:title="Friends" />
     <item
-        android:id="@+id/alerta"
-        android:title="Alerta" />
+        android:id="@+id/alerts"
+        android:title="Alerts" />
     <item
         android:id="@+id/logout"
         android:title="Logout" />

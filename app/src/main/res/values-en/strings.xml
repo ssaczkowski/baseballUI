@@ -25,4 +25,7 @@
     <string name="position">Third base / Batsman</string>
     <string name="call">Call</string>
     <string name="edit">Edit</string>
+    <string name="view_profile">View Profile</string>
+    <string name="points">Points</string>
+    <string name="homerun">Homerun</string>
 </resources>

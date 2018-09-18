@@ -1,5 +1,7 @@
 package com.ssaczkowski.baseballui
 
+import android.app.Dialog
+import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
@@ -9,7 +11,7 @@ import android.view.WindowManager
 import kotlinx.android.synthetic.main.activity_splash.*
 import kotlinx.android.synthetic.main.activity_start.*
 import android.support.v4.view.GravityCompat
-
+import kotlinx.android.synthetic.main.alert_dialog.*
 
 
 class StartActivity : AppCompatActivity() {
@@ -31,11 +33,30 @@ class StartActivity : AppCompatActivity() {
         toggle.syncState()
         supportActionBar!!.setDisplayHomeAsUpEnabled(true)
 
-        start_activity_navigation_view.setNavigationItemSelectedListener {
+        start_activity_navigation_view.setNavigationItemSelectedListener { it ->
 
             when(it.itemId){
                 R.id.profile->{
                   //  startActivity(Intent(this@StartActivity,SplashActivity::class.java))
+                    true
+                }
+                R.id.friends->{
+                      startActivity(Intent(this@StartActivity,FriendsActivity::class.java))
+                    true
+                }
+                R.id.alerts->{
+                    var dialog = Dialog(this@StartActivity)
+                    dialog.setContentView(R.layout.alert_dialog)
+                    dialog.show()
+                    dialog.button_view_profile.setOnClickListener {
+                        startActivity(Intent(this@StartActivity,ProfileActivity::class.java))
+                        finish()
+                    }
+
+                    dialog.alert_dialog_close.setOnClickListener {
+                        dialog.dismiss()
+                    }
+
                     true
                 }
                 else -> false
