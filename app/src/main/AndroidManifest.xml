@@ -31,7 +31,8 @@
         <activity android:name=".FriendsActivity" />
         <activity android:name=".HomeAnimationActivity" />
         <activity android:name=".AnimationActivity" />
-        <activity android:name=".FadeActivity"></activity>
+        <activity android:name=".FadeActivity" />
+        <activity android:name=".TransitionActivity"></activity>
     </application>
 
 </manifest>
