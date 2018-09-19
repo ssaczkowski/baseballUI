@@ -37,5 +37,10 @@ class HomeAnimationActivity : AppCompatActivity() {
 
         }
 
+        home_animation_text_view_lottie.setOnClickListener {
+            startActivity(Intent(this@HomeAnimationActivity, LikeActivity::class.java))
+
+        }
+
     }
 }
