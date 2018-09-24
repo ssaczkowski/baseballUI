@@ -1,14 +1,20 @@
 # baseballUI
 
-![image](https://user-images.githubusercontent.com/24362003/45958308-81c31400-bfed-11e8-86b0-ff923456eed8.png) 
+
+<div align="center"> 
+     <img width="45%" src="screen-shots/about.PNG" alt="About screen" title="About screen"</img> 
+     <img height="0" width="8px"> 
+     <img width="45%" src="screen-shots/list.PNG" alt="List screen" title="List screen"></img> 
+     ![image](https://user-images.githubusercontent.com/24362003/45958308-81c31400-bfed-11e8-86b0-ff923456eed8.png) 
 ![image](https://user-images.githubusercontent.com/24362003/45958309-81c31400-bfed-11e8-88c5-8c83176ede11.png) 
 ![image](https://user-images.githubusercontent.com/24362003/45958311-825baa80-bfed-11e8-8048-db49b6b894df.png) 
 ![image](https://user-images.githubusercontent.com/24362003/45958312-825baa80-bfed-11e8-9336-14c2de2b7345.png)
 ![image](https://user-images.githubusercontent.com/24362003/45958313-825baa80-bfed-11e8-883c-88b6a92076c5.png)
 ![image](https://user-images.githubusercontent.com/24362003/45958314-82f44100-bfed-11e8-8614-664e8b46b6f8.png)
 ![image](https://user-images.githubusercontent.com/24362003/45958315-82f44100-bfed-11e8-8dc7-ad5c202aa704.png)
+</div> 
 
-![Screenshot](https://user-images.githubusercontent.com/24362003/45958315-82f44100-bfed-11e8-8dc7-ad5c202aa704.png)
+
 
 
 
